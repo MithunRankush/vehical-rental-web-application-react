@@ -1,0 +1,48 @@
+.Mdashbord{
+   display: flex;
+}
+.Mdashbord .sbar{
+    width: 17%;
+}
+.mainboard{
+    padding: 10px;
+}
+.btnbar{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.btnbar .btn{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.btn1{
+    background: linear-gradient(45deg,#F1544A,#f85206);
+}
+.btn2{
+    background: linear-gradient(45deg,#3BB27A,#00B491);
+}
+.btn3{
+    background: linear-gradient(45deg,#7466FF,#7266FF);
+}
+.btn4{
+    background: linear-gradient(45deg,#1D7EFF,#1F7FFF);
+}
+.btn5{
+    background: linear-gradient(45deg,#3BB27A,#00B491);
+}
+.showcase{
+    margin-top: 10px;
+    width: 100%;
+    height: 520px;
+    background-color: white;
+}
